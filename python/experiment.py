@@ -101,3 +101,4 @@ if __name__ == '__main__':
     except serial.serialutil.SerialException:
         shared.xb.halt()
         shared.ser.close()
+        
