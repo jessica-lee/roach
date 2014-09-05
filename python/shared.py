@@ -3,9 +3,9 @@ xb = []
 ser = []
 
 #Base station
-BS_COMPORT = 'COM3'
+BS_COMPORT = 'COM4'
 # BS_COMPORT = '/dev/ttyUSB0'
-BS_BAUDRATE = 230400
+BS_BAUDRATE = 57600
 #XBee
 # BS_COMPORT = 'COM2'
 # BS_BAUDRATE = 57600

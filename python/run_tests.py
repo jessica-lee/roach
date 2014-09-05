@@ -81,9 +81,9 @@ class _GetchWindows:
 
 getch = _Getch()
 #RADIO_DEV_NAME  = '/dev/tty.usbserial-*' or 'COMx'
-RADIO_DEV_NAME = 'COM3'
+RADIO_DEV_NAME = 'COM4'
 # RADIO_DEV_NAME = '/dev/ttyUSB0'
-BS_BAUDRATE = 230400
+BS_BAUDRATE = 57600
 
 DEST_ADDR = '\x21\x02'
 
