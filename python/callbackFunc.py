@@ -134,6 +134,8 @@ def xbee_received(packet):
     
     except Exception as args:
         print "\nGeneral exception from callbackfunc:",args
+        print "Type was %d" % type
+        print "Data was %s" % str(data)
         print "Attemping to exit cleanly..."
         self.xb.halt()
         self.ser.close()
