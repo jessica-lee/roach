@@ -1,7 +1,7 @@
 
 clear all
 clc
-parseAlltxt
+% parseAlltxt
 
 %get maxPower and maxTorque for all runs
 for i = 1:length(DATA);

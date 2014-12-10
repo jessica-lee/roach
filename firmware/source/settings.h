@@ -8,9 +8,9 @@
 #define __RADIO_SETTINGS_H
 
 
-#define RADIO_MY_CHAN         0x0E
+#define RADIO_MY_CHAN         0x14
 
-#define RADIO_PAN_ID          0x2100
+#define RADIO_PAN_ID          0x2170
 #define RADIO_DEST_ADDR       0x2101
 #define RADIO_SRC_ADDR        0x2102
 
